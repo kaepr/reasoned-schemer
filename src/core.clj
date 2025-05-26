@@ -1,6 +1,7 @@
-(ns core)
+(ns core
+  (:refer-clojure :exclude [==])
+  (:require [clojure.core.logic :refer [run* ==]]))
 
-(defn add [x y]
-  (+ x y))
+(run* [q]
+  (== 'olive q))
 
-(add 1 2)
