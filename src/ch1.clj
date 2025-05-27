@@ -1,4 +1,4 @@
-(ns core
+(ns ch1
   (:refer-clojure :exclude [==])
   (:require [clojure.core.logic :refer :all]))
 
